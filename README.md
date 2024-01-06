@@ -1,2 +1,2 @@
 # amazonwebpage
-created amazon webpage using html and css
+creating amazon webpage using html and css completed with the navigation bar
