@@ -1,0 +1,379 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: arial;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+.bor{
+    border: 2px solid transparent;
+}
+.bor:hover{
+    border: 2px solid #d6d6d6;
+}
+
+.logo {
+    height: 50px;
+    width: 100px;
+    background-image: url("amazon-logo.png");
+    background-size: contain;
+}
+    .deliver {
+    height: 50px;
+    width: 85px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.fa-solid {
+    height: 15px;
+    width: 18px;
+    margin-top: 16px;
+}
+
+.selectbar {
+    height: 60px;
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+.selectbar
+{
+    border: 2px solid transparent;
+}
+.selectbar:hover
+{
+    height: fit-content;
+    width: fit-content;
+    border: 2px solid #ff9900;
+}
+.all {
+    height: 43px;
+    width: 45px;
+    border: no-border;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.searchbox {
+    height: 40px;
+    width: 306px;
+    border: no-border;
+
+}
+
+.fa-brands {
+    height: 40px;
+    width: 40px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: no-border;
+
+}
+
+.searchlogo {
+    height: 40px;
+    width: 45px;
+    background-color: #ff9900;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: no-border;
+
+}
+
+.language {
+    height: 50px;
+    width: 73px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+
+.EN {
+    height: 19px;
+    width: 50px;
+    color: black;
+    background-color: #d6d6d6;
+}
+#langic
+{
+    height: 18px;
+    background-color: #d6d6d6;
+    margin-bottom: 17px;
+}
+.signin
+{
+    height: 50px;
+    width: 131px;
+    color: #d6d6d6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+#signin1
+{
+    color: #d6d6d6;
+    text-decoration: none;
+    font-size: 12px;
+}
+#signin2
+{
+    color: #d6d6d6;
+    text-decoration: none;
+    font-size: 14px;
+}
+.generic
+{
+    height: 50px;
+    width: 76px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+#return
+{
+    font-size: 12px;
+   color: #d6d6d6;
+   text-decoration: none;
+}
+#orders{
+    font-size: 14px;
+    color: #d6d6d6;
+    text-decoration: none;
+}
+.cart{
+    height: 50px;
+    width: 84px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #d6d6d6;
+}
+
+#cart{
+    font-size: 14px;
+    padding-top: 18px;
+}
+#cartlogo
+{
+    font-size:1rem;
+}
+.navshop
+{
+    height: 40px;
+    width: 100%;
+    background-color: #275769;
+    display: flex;
+    flex-direction: row;
+}
+.navMenu
+{
+    width: 59px;
+    height: 40px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navcontent
+{
+    color: #ffffff;
+    display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: flex-start;
+}
+p
+{
+    margin-left: 20px;
+
+}
+#id{
+    font-size: 14px;
+    visibility: hidden;
+}
+.herosection{
+    background-image: url("section\ image.jpg");
+    height: 450px;
+    width: 1268px;
+}
+.displaycontent{
+    height: 40px;
+    width: 1150px;
+    color: #d6d6d6;
+    background-color: rgb(25, 23, 23);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: centre;
+    background-color: black;
+    margin-top: -70px;
+    padding-left: 85px;
+}
+.firstfourbox
+{
+    height: 500px;
+    width: 1268px;
+    background-color: #aaf0fa;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.ffb
+{
+    height: 420px;
+    width: 292px;
+    background-color: white;
+    margin-top: 25px;
+
+}
+.secondfourbox
+{
+    height: 500px;
+    width: 1268px;
+    background-color: #aaf0fa;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.ffb
+{
+    height: 420px;
+    width: 292px;
+    background-color: white;
+    margin-top: 25px;
+
+}
+.boxesfont
+{
+    font-size: 21px;
+    font-style:arial;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 20px;
+    padding-left: 20px;
+    
+}
+#ff1
+{
+    padding-top: 70px;
+    height: 200px;
+    width: 292px;
+    background-size: cover;
+}
+.shopnow
+{
+    padding-left: 20px;
+    padding-top: 50px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-items: center;
+    align-content: flex-end; 
+}
+.backtotop
+{
+    color: #ffffff;
+    height: 50px;
+    width: 1268px;
+    background-color: #0f1111;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.foot1
+{
+    color: #ffffff;
+    height: 400px;
+    width: 1268px;
+    background-color: #232f3e;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+    font-size: 14px;
+}
+.foot2
+{
+    color: #ffffff;
+    font-size: 13px;
+    height: 60px;
+    width: 1268px;
+    background-color: #232f3e;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#langu
+{
+    height: 34px;
+    width: 117px;
+    margin-left:10px;
+}
+.row1
+{
+    padding-top: 20px;
+    color: #ffffff;
+    height: 400px;
+    width: 1268px;
+    background-color: #232f3e;
+    display: flex;
+    flex-direction: row;
+    justify-content:centre;
+    flex-wrap: wrap;
+    font-size: 12px;
+}
+.row2
+{
+    padding-top: 20px;
+    color: #ffffff;
+    height: 400px;
+    width: 1268px;
+    background-color: #232f3e;
+    display: flex;
+    flex-direction: row;
+    justify-content:centre;
+    flex-wrap: wrap;
+    font-size: 12px;
+}
+.over
+{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
